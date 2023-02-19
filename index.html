@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive 
+        Geometry Genius</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@400;600;700&family=Lobster&family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,100&family=Roboto:ital,wght@0,500;0,700;1,300&family=Rubik:wght@700&family=Work+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@400;600;700&family=Lobster&family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,100&family=Roboto:ital,wght@0,500;0,700;1,300&family=Rubik:wght@700&family=Work+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!------------------------------------------------Header Section-------------------------------------->
+    <section>
+        <div class="background">
+        <div class="header">
+            <h1><span class="bold">Interactive </span> 
+                <span class="smallbold">Geometry Genius</span> </h1>
+        </div>
+        <div class="blog">
+            <button onclick = "Redirect();">Blog</button>
+            
+        </div>
+    </div>
+    </section>
+<!------------------------------------------GEOMETRY CARD----------------------------------------------->
+
+<section id="container">
+    <div class="geometryCard">
+
+        <div class="triangle">
+            <img src="./images/triangle.png" id="img">
+            <h1 class="title">Triangle</h1>
+            <p class="AreaLaw">Area (A) = 0.5 <span class="multiple">&#9587;</span> b <span class="multiple">&#9587;</span> h </p>  
+            <div class="area">
+                <input type="number" id="base" class="base1" value=" " ><p class="cm1">cm</p> 
+                <input type="number" id="height" class="height1" value=" "><p class="cm2">cm</p>  
+            </div>
+
+            <button class="calculation" id="TriangleCalculation">Calculate</button>
+           
+        </div>
+
+               <!---------Rectangle---------------->
+               <div class="Rectangle">
+                <img src="./images/rectangle.png" id="img2">
+                <h1 class="title">Rectangle</h1>
+                <p class="AreaLaw">Area (A) = W <span class="multiple">&#9587;</span> l</p>  
+                <div class="area">
+                    <input type="number" id="base"  class="base2"value="" ><p class="cm1">cm</p> 
+                    <input type="number" id="height" class="height2" value=""><p class="cm2">cm</p>  
+                </div>
+
+                <button class="calculation" id="RectangleCalculation">Calculate</button>
+               
+            </div>
+ <!-----------------------------------Parallelogram---------------->
+ <div class="Parallelogram">
+    <img src="./images/parallelogram.png" id="img3">
+    <h1 class="title">Parallelogram</h1>
+    <p class="AreaLaw">Area (A) = b <span class="multiple">&#9587;</span> h</p> 
+
+    <div class="area">
+        <input type="number" id="base"  class="base3"value="" ><p class="cm1">cm</p> 
+        <input type="number" id="height" class="height3" value=""><p class="cm2">cm</p>  
+    </div>
+
+    <button class="calculation" id="ParallelogramCalculation">Calculate</button>
+   
+</div>
+
+
+              <!-----------------------------------Rhombus---------------->
+              <div class="Rhombus">
+                <img src="./images/rhombus.png" id="img4">
+                <h1 class="title">Rhombus</h1>
+                <p class="AreaLaw">Area (A) = 0.5 <span class="multiple">&#9587;</span> d1 <span class="multiple">&#9587;</span> d2</p>  
+          
+                <div class="area">
+                    <input type="number" id="base"  class="base4" value="" ><p class="cm1">cm</p> 
+                    <input type="number" id="height" class="height4"value=""><p class="cm2">cm</p>  
+                </div>
+
+                <button class="calculation" id="RombusCalculation">Calculate</button>
+            </div>
+
+              <!-----------------------------------Pentagaon---------------->
+
+              <div class="Pentagon">
+                <img src="./images/pentagon.png" id="img5">
+                <h1 class="title">Pentagon</h1>
+                <p class="AreaLaw">Area (A) = 0.5 <span class="multiple">&#9587;</span> p <span class="multiple">&#9587;</span> b</p> 
+            
+                <div class="area">
+                    <input type="number" id="base" class="base5" value="" ><p class="cm1">cm</p> 
+                    <input type="number" id="height" class="height5" value=""><p class="cm2">cm</p>  
+                </div>
+
+                <button class="calculation" id="PentagonCalculation">Calculate</button>
+               
+            </div>
+
+            <!-----------------------------------Ellipse---------------->
+
+            <div class="Ellipse">
+                <img src="./images/ellipse.png" id="img6">
+                <h1 class="title">Ellipse</h1>
+                <p class="AreaLaw">Area (A) = πab </p>
+            
+                <div class="area">
+                    <input type="number" id="base" class="base6" value="" ><p class="cm1">cm</p> 
+                    <input type="number" id="height" class="height6" value=""><p class="cm2">cm</p>  
+                </div>
+
+                <button class="calculation" id="EllipseCalculation">Calculate</button>
+               
+            </div>
+
+    </div>
+
+    
+          <!------------------------------------------CARtCalculation------------------------------------------>
+
+          <div class="CartCalculation">
+            <div class="areaCalculation">
+                <h1>Area Calculation</h1>
+    
+                <div class="tableinfo">
+    
+                </div>
+                
+            </div>
+           
+         </div>
+        </section>
+    
+    
+
+   
+  
+<script src="script.js"></script>
+
+</body>
+</html>

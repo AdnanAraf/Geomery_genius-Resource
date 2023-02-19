@@ -1,0 +1,599 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  position: relative;
+  width: 90%;
+  height: 130px;
+  left: 50px;
+  top: 50px;
+  background: rgba(16, 144, 216, 0.1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  position: relative;
+  left: 42px;
+  top: 19px;
+  width: 271px;
+}
+.bold {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: rgba(17, 17, 17, 0.8);
+}
+.smallbold {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: rgba(17, 17, 17, 0.6);
+}
+
+.blog button {
+  position: relative;
+  top: 41px;
+  right: 50px;
+  width: 120px;
+  height: 48px;
+  background: #1090d8;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  font-family: "inter";
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.Q {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "poppins";
+}
+.question {
+  border: 2px solid brown;
+  width: 600px;
+  margin: 10px;
+}
+
+.paragraph {
+  font-size: 16px;
+  background-color: yellow;
+  font-weight: bold;
+  font-family: cursive;
+}
+/**************************************************GEOMETRY CARD****************************************/
+
+/**************************************************Triangle*******************************************/
+
+#container {
+  display: flex;
+  gap: 30px;
+}
+
+.geometryCard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+.triangle {
+  position: relative;
+  width: 300px;
+  height: 320px;
+  left: 50px;
+  top: 230px;
+  background: #fbbced;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 8px;
+}
+
+#img {
+  position: absolute;
+  left: 70px;
+  top: 20px;
+  width: 150px;
+}
+.title {
+  position: absolute;
+  width: 300px;
+  text-align: center;
+  top: 150px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #414141;
+}
+.AreaLaw {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  top: 190px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 16px;
+  color: #414141;
+}
+.multiple {
+  position: relative;
+  content: "\274C";
+  font-size: 10px;
+  color: black;
+  font-weight: 300;
+  top: 0px;
+}
+#base {
+  position: absolute;
+  width: 95px;
+  height: 32px;
+  left: 24px;
+  top: 220px;
+  background: #f1f1f1;
+  border-radius: 4px;
+  border: none;
+}
+#height {
+  position: absolute;
+  width: 95px;
+  height: 32px;
+  left: 156px;
+  top:220px;
+  background: #f1f1f1;
+  border-radius: 4px;
+  border: none;
+}
+.cm1 {
+  position: absolute;
+  left: 125px;
+  top: 220px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.cm2 {
+  position: absolute;
+  left: 260px;
+  top: 225px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.calculation {
+  position: absolute;
+  width: 120px;
+  height: 35px;
+  left: 83px;
+  top: 270px;
+  color: white;
+  background: #1090d8;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+.HeighAndWidth {
+  position: absolute;
+  top: 314px;
+  font-size: 23px;
+  font-weight: bold;
+  left: 100px;
+}
+/**************************************************Reactangle*******************************************/
+
+.Rectangle {
+    position: relative;
+    width: 300px;
+    height: 320px;
+    top: 230px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 8px;
+    left: 30px;
+    background-color: turquoise;
+  }
+  #img2 {
+    position: absolute;
+    left: 45px;
+    top: 20px;
+    width:200px;
+  }
+
+  /**************************************************Parallelogram*******************************************/
+
+.Parallelogram {
+    position: relative;
+    width: 300px;
+    height: 320px;
+    top: 230px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 8px;
+    background-color: thistle;
+  }
+  
+  #img3 {
+    position: absolute;
+    left: 54px;
+    top: 25px;
+    width:200px;
+  }
+
+  /**************************************************Rhombus*******************************************/
+.Rhombus {
+    position: relative;
+    width: 300px;
+    height: 320px;
+    top: 230px;
+    left: 50px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 8px;
+    background-color: rgb(152, 241, 169);
+  }
+  #img4 {
+    position: absolute;
+    left: 65px;
+    top: 10px;
+    width:180px;
+  }
+  
+/**************************************************Pentagon******************************************/
+.Pentagon {
+    position: relative;
+    width: 300px;
+    height: 320px;
+    top: 230px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 8px;
+    left: 30px;
+    background-color: rgb(162, 237, 238);
+  }
+  
+  #img5 {
+    position: absolute;
+    left: 71px;
+    top: 0px;
+    width:150px;
+  }
+
+  /**************************************************Ellipse*******************************************/
+.Ellipse {
+    position: relative;
+    width: 300px;
+    height: 320px;
+    top: 230px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 8px;
+    background-color: rgb(246, 194, 185);
+  }
+  #img6 {
+    position: absolute;
+    left: 55px;
+    top: 0px;
+    width:200px;
+  }
+  .areaCalculation {
+    position: absolute;
+    width: 330px;
+    height: 454.2px;
+   right: 150px;
+    top: 370px;
+    background: #ffffff;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    overflow-x: hidden;
+  
+  }
+  .areaCalculation h1 {
+    text-align: center;
+    font-family: "poppins";
+    text-decoration: underline;
+    margin-top: 2rem;
+  }
+  th,
+  td {
+    padding: 15px;
+    font-size: 18px;
+  }
+  
+  .convert {
+    width: 100px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  @media screen and (max-width: 420px) {
+    body{
+        overflow-x: hidden;
+    }
+  .background {
+    position: relative;
+    width: 352px;
+    height: 130px;
+    left: 29px;
+    top: 0;
+    background: rgba(16, 144, 216, 0.1);
+    border-radius: 8px;
+  }
+
+  .header {
+    position: relative;
+    left: 12px;
+    top: 19px;
+    width: 171px;
+  }
+
+  .bold {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(17, 17, 17, 0.8);
+  }
+
+  .smallbold {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(17, 17, 17, 0.6);
+  }
+
+  .blog button {
+    position: relative;
+    top: 41px;
+    right: 20px;
+    width: 120px;
+    height: 48px;
+    background: #1090d8;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-family: "inter";
+    border: none;
+    cursor: pointer;
+  }
+
+  .Q {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "poppins";
+  }
+  .question {
+    border: 2px solid brown;
+    width: 300px;
+    margin: 10px;
+    /* margin-left: 2rem; */
+  }
+
+  .paragraph {
+    font-size: 16px;
+    background-color: yellow;
+    font-weight: bold;
+    font-family: cursive;
+    overflow-x: hidden;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+
+  .geometryCard {
+    position:absolute;
+    left:40px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /*grid-gap: 50px;*/
+  
+
+  }
+  .triangle {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 330px;
+  }
+
+  #img {
+    position: absolute;
+    /* left: 80px; */
+    top: 20px;
+    height: 150px;
+    width: 150px;
+  }
+  .title {
+     position: absolute; 
+    text-align: center;
+     width:300px;
+    top: 173px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #414141;
+  }
+  .AreaLaw {
+    position: absolute;
+    top: 213px;
+    left: 0px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 16px;
+    color: #414141;
+  }
+  .multiple {
+    position: relative;
+    content: "\274C";
+    font-size: 10px;
+    color: black;
+    font-weight: 300;
+    top: -3px;
+  }
+  #base {
+    position: absolute;
+    width: 85px;
+    height: 22px;
+    left: 44px;
+    top: 244px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    border: none;
+  }
+  #height {
+    position: absolute;
+    width: 85px;
+    height: 22px;
+    left: 184px;
+    top: 244px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    border: none;
+  }
+  .cm1 {
+    position: absolute;
+    left: 148px;
+    top: 244px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .cm2 {
+    position: absolute;
+    left: 285px;
+    top: 244px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .Rectangle {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 320px;
+  }
+  #img2 {
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .Parallelogram {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 320px;
+  }
+  #img3 {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .Rhombus {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 320px;
+  }
+  #img4 {
+    height: 150px;
+    width: 150px;
+    margin-left: 2.5rem;
+  }
+
+  .Pentagon {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    width: 320px;
+  }
+  #img5 {
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    height: 150px;
+    width: 150px;
+  }
+  .Ellipse {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 320px;
+  }
+  #img6 {
+    height: 150px;
+    width: 200px;
+    /* margin-left: 1rem; */
+  }
+
+  .areaCalculation {
+    position: relative;
+    left: 0;
+    width: 100px;
+    height: 454.2px;
+   
+  }
+
+  .calculation {
+    position: absolute;
+    width: 130px;
+    height: 36px;
+    left: 103px;
+    top: 280px;
+    color: white;
+    background: #1090d8;
+    border-radius: 8px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+  }
+
+  .HeighAndWidth {
+    position: absolute;
+    top: 294px;
+    font-size: 23px;
+    font-weight: bold;
+    left: 60px;
+  }
+  .areaCalculation {
+    position: absolute;
+    width: 320px;
+    overflow-x: hidden;
+    top:2350px;
+    left: 50px;
+  }
+}
+
+
